@@ -50,8 +50,8 @@ export const AppRoot = () => {
   return (
     <>
       <div className={lightMode}>
-        <div className="dark:bg-black">
-          <div className="h-screen transition ease-in-out px-10 py-5 max-w-7xl m-auto">
+        <div className="dark:bg-black background lightToDark">
+          <div className="h-screen px-10 py-5 max-w-7xl m-auto">
             <div className="flex justify-between items-center">
               <div><h1 className='text-violet-500'>Office Quote Generator</h1></div>
               <button onClick={changeLighting} className="overflow-hidden h-6 w-6 rounded-full relative">
